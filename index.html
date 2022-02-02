@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+  <h1 class="titulo">Codificador de Texto</h1>
+  
+</div>
+
+</header>
+
+<h1><center id= "gat">_Cód!g0 5ecr3t0_</center></h1>
+  <main class="main">
+    <section class="form box">
+      <form action="">
+        <label for="input-texto">Apenas letras minúsculas, sem acento</label>
+        <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="insira o texto aqui" pattern="[a-z]+$"/>
+        <input class="btn" type="submit" value="criptografar!" id="btn-cripto">
+        <input class="btn" type="submit" value="descriptografar!" id="btn-descripto">
+        <span id="erro" class="invisivel">Por favor, insira apenas letras minúsculas</span>
+      </form>
+    </section>
+  
+    <section class="msg box">
+       <label id="cript">Mensagem criptografada:</label>
+      <input class="text-input" type="text" id="msg"></input>
+      <input class="btn" type="submit" value="copiar" id="btn-copy">
+    </section>
+  </main>
+
+  <footer>
+  <p>Challenge #1 Oracle Next Education-Alura -by Stefany</p>
+
+
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
